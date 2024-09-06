@@ -28,6 +28,10 @@ section ul li a{
     background-color: chocolate;
 }
 
+section ul li a:hover{
+  background-color: rgb(6, 110, 22);
+}
+
 section p{
     background-color: burlywood;
 }
