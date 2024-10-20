@@ -1,0 +1,439 @@
+:root {
+  --maincolor: #7a3145;
+  --green: #576f35;
+  --black: #141414;
+  --white: #fbfbfb;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+/* VEGETABLES */
+.vegetables {
+  background-color: var(--maincolor);
+  width: 1280px;
+  height: 1229px;
+  gap: 50px;
+  opacity: 0px;
+  padding: 100px 0 0 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.vegetables-block {
+  width: 626px;
+  height: 193px;
+  gap: 25px;
+  opacity: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.vegetables-header {
+  font-family: Inter Tight;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 64px;
+  letter-spacing: -0.015em;
+  text-align: left;
+  color: var(--white);
+}
+
+.vegetables-header-vegetables {
+  font-family: Inter Tight;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 64px;
+  letter-spacing: -0.015em;
+  text-align: left;
+  color: var(--white);
+  opacity: 0.3;
+}
+
+.vegetables-paragraph {
+  font-family: Inter Tight;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+  color: var(--white);
+}
+
+.vegetables-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 21px;
+}
+
+.card {
+  width: 346px;
+  height: 379px;
+  padding: 32px 0px 0px 0px;
+  gap: 10px;
+  border-radius: 40px;
+  opacity: 0px;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+}
+
+.card-container {
+  margin: 0 auto;
+}
+
+.card-text-container {
+  gap: 12px;
+  opacity: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-head {
+  font-family: Inter Tight;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: -0.015em;
+  text-align: left;
+  color: var(--maincolor);
+}
+
+.card-p {
+  font-family: Inter Tight;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: -0.015em;
+  text-align: left;
+}
+
+.card-img {
+  width: 100%;
+  max-width: 100%;
+  gap: 0px;
+  opacity: 0px;
+}
+
+/* FOOTER*/
+.footer {
+  background-color: var(--maincolor);
+  /* Footer */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 50px 100px;
+  gap: 125px;
+
+  position: absolute;
+  width: 1280px;
+  height: 391px;
+  left: calc(50% - 1280px / 2);
+  top: 4906px;
+}
+
+.footer-container {
+  width: 1158px;
+  max-width: 1440px;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.footer-container-footer {
+  width: 1158px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  vertical-align: baseline;
+}
+.footer-logo-text {
+  /* logo+text */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 25px;
+
+  width: 513px;
+  height: 103px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.footer-logo {
+  /* logo */
+
+  width: 194px;
+  height: 18px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.footer-logo-title {
+  /* logo */
+  text-transform: uppercase;
+  width: 194px;
+  height: 18px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.footer-logo-p {
+  /* Whether you're looking for a healthy snack or a thoughtful gift, our fruit baskets are the perfect choice. */
+
+  width: 265px;
+  height: 60px;
+
+  font-family: "Inter Tight";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  /* or 125% */
+  display: flex;
+  align-items: center;
+
+  color: #fbfbfb;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.footer-menu-contact {
+  /* block */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 121px;
+
+  width: 513px;
+  height: 146px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.footer-menu {
+  /* menu */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 25px;
+
+  width: 177px;
+  height: 146px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.footer-menu-ul {
+}
+.footer-menu-li {
+  /* how it works */
+
+  width: 177px;
+  height: 48px;
+
+  font-family: "Inter Tight";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 32px;
+  /* identical to box height, or 100% */
+  display: flex;
+  /* align-items: center; */
+  letter-spacing: -0.015em;
+
+  color: #fbfbfb;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.footer-contact {
+  /* contacts */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 25px;
+
+  width: 215px;
+  height: 85px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.footer-contact-phone {
+  /* +380 (68) 443-94-26 */
+
+  width: 174px;
+  height: 20px;
+
+  font-family: "Inter Tight";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+  /* identical to box height, or 111% */
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.015em;
+
+  color: #fbfbfb;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.footer-contact-address {
+  /* 1678 S. Pioneer Road Salt Lake City UT 84104 */
+
+  width: 215px;
+  height: 40px;
+
+  font-family: "Inter Tight";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+  /* or 111% */
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.015em;
+
+  color: #fbfbfb;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+/* TABLET WEBSITE*/
+@media (min-width: 375px) and (max-width: 768px) {
+  .vegetables {
+    width: 768px;
+    height: auto;
+    padding: 100px 0 100px 32px;
+    gap: 50px;
+    opacity: 0px;
+  }
+
+  .vegetables-header {
+    font-family: Inter Tight;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 64px;
+    letter-spacing: -0.015em;
+    text-align: left;
+  }
+
+  .vegetables-header-vegetables {
+    font-family: Inter Tight;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 64px;
+    letter-spacing: -0.015em;
+    text-align: left;
+    opacity: 0.3;
+  }
+
+  .vegetables-paragraph {
+    font-family: Inter Tight;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+  }
+}
+
+/* MOBİLE WEBSITE*/
+@media (min-width: 320px) and (max-width: 375px) {
+  .vegetables {
+    width: 375px;
+    height: 2766px;
+    padding: 80px 20px 80px 20px;
+    gap: 40px;
+    opacity: 0px;
+  }
+
+  .vegetables-block {
+    width: 335px;
+    height: 192px;
+    gap: 20px;
+    opacity: 0px;
+  }
+
+  .vegetables-header {
+    font-family: Inter Tight;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 50px;
+    letter-spacing: -0.015em;
+    text-align: left;
+  }
+
+  .vegetables-header-vegetables {
+    font-family: Inter Tight;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 50px;
+    letter-spacing: -0.015em;
+    text-align: left;
+  }
+
+  .vegetables-paragraph {
+    font-family: Inter Tight;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: left;
+  }
+}
